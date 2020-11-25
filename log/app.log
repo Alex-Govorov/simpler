@@ -1,0 +1,45 @@
+2020-11-25 20:24:24 +0300
+       Request: GET /tests/
+     Handler: TestsController#index
+     Parameters: 
+     Response: 200 OK [text/plain] tests/index.plain.erb
+2020-11-25 20:24:25 +0300
+       Request: GET /favicon.ico
+     Handler: NilClass#
+     Parameters: 
+     Response: 404 Not Found [text/html] 
+2020-11-25 20:25:01 +0300
+       Request: GET /tests/343
+     Handler: TestsController#show
+     Parameters: {:id=>"343"}
+     Response: 200 OK [text/html] tests/show.html.erb
+2020-11-25 20:28:53 +0300
+       Request: GET /tessdfdsfts/343
+     Handler: NilClass#
+     Parameters: 
+     Response: 404 Not Found [text/html] 
+2020-11-25 20:28:59 +0300
+       Request: GET /tessdfdsfts/
+     Handler: NilClass#
+     Parameters: 
+     Response: 404 Not Found [text/html] 
+2020-11-25 20:29:02 +0300
+       Request: GET /tessdfdsfts
+     Handler: NilClass#
+     Parameters: 
+     Response: 404 Not Found [text/html] 
+2020-11-25 20:29:06 +0300
+       Request: GET /index
+     Handler: NilClass#
+     Parameters: 
+     Response: 404 Not Found [text/html] 
+2020-11-25 20:29:10 +0300
+       Request: GET /tests
+     Handler: TestsController#index
+     Parameters: 
+     Response: 200 OK [text/plain] tests/index.plain.erb
+2020-11-25 20:29:10 +0300
+       Request: GET /favicon.ico
+     Handler: NilClass#
+     Parameters: 
+     Response: 404 Not Found [text/html] 
